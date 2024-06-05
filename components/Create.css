@@ -1,0 +1,43 @@
+.create {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .create h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .create form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .create label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .create input, .create textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .create button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create button:hover {
+    background-color: #0056b3;
+  }
+  
