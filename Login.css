@@ -1,0 +1,75 @@
+/* Login.css */
+
+.login-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-image: url('../assets/SignInImage.jpg');
+  padding: 0;
+  padding-left: 150px;
+  }
+  
+  .login-form {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    position: relative; /* To keep form above overlay */
+  }
+  
+  .login-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #ffae00;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff6600;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .forgot-password a {
+    color: #ffae00;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-elements {
+    margin-bottom: 15px;
+  }
+  
