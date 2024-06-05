@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://cdna.artstation.com/p/assets/images/images/015/779/692/large/shubham-chaturvedi-18.jpg?1549608755') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .upload-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-label {
+    display: inline-block;
+    cursor: pointer;
+    color: #030000;
+    background-color: transparent;
+    padding: 100px 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #0d0e0f;
+    position: relative;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  .upload-label.drag-active {
+    background-color: #b3d9ffbc;
+  }
+  
+  .upload-label.file-selected {
+    background-color: #d3e4e7; /* Change this to the desired color/style when a file is selected */
+  }
+  
+  .icon {
+    color: #595555a8;
+  }
+  
+ /* .upload-label:hover {
+    background-color: #8a9bae;
+  }*/
+  
+  .upload-label span {
+    display: block;
+    line-height: normal;
+    padding-top: 40px;
+  }
+  
+  .upload-button, .cancel-button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button {
+    background: linear-gradient(to right, #f2d203, #c89004);
+    color: white;
+  }
+  
+  .upload-button:hover {
+    background: linear-gradient(to right, #c89004, #7d5a03);
+  }
+  
+  .cancel-button {
+    background: linear-gradient(to right, #f2d203, #c89004);
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background: linear-gradient(to right, #c89004, #7d5a03);
+  }
+  
+  .upload-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .image-preview {
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
